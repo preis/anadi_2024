@@ -3,3 +3,4 @@ jupyterlab
 Pyarrow
 pandas
 numpy
+matplotlib
