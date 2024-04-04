@@ -5,3 +5,4 @@ Pyarrow
 pandas
 numpy
 matplotlib
+scikit-posthocs
