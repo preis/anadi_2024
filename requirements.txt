@@ -9,3 +9,4 @@ scikit-posthocs
 scikit-learn
 ipywidgets
 tensorflow
+scipy
