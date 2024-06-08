@@ -19,6 +19,10 @@ def texto(texto: str, cor="94"):
     print(f"\033[0;{cor}m{texto}\033[0m")
 
 
+def texto_mesma_linha(texto: str, cor="94"):
+    print(f"\r\033[0;{cor}m{texto}\033[0m", end=" ")
+
+
 def undersplit(texto):
     return " ".join(texto.split("_"))
 
@@ -69,3 +73,4 @@ def tabela_1_coluna(dados_coluna, texto_titulo: str):
     titulo(texto_titulo)
     for item in dados_coluna:
         texto(item)
+
